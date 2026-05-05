@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# SQLite database
+*.db
+*.sqlite
+*.sqlite3
+
+# Flask-Session
+flask_session/
+*.session
+
+# Uploads
+uploads/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Alembic migrations
+alembic/versions/*.pyc
